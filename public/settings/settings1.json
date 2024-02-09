@@ -1,0 +1,8 @@
+{
+    "providerName": "Circles - X",
+    "logoUrl": "/logos/logo1.jpg",
+    "themeUrl": "/theme/theme1.json",
+    "menuDefinition": "/menu/menu1.json",
+    "supportedLangs": ["en", "ur"]
+  }
+  

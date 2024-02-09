@@ -1,0 +1,130 @@
+[
+    {
+      "label": "menu.home",
+      "key": "/",
+      "children": null,
+      "type": null,
+      "path": "/"
+    },
+    {
+      "label": "menu.customer",
+      "key": "menu.customer",
+      "children": [
+        {
+          "label": "menu.customer-search",
+          "key": "/customer/search",
+          "children": null,
+          "type": null,
+          "path": "/customer/search"
+        },
+        {
+          "label": "menu.customer-serviceaccounts",
+          "key": "/customer/serviceaccounts",
+          "children": null,
+          "type": null,
+          "path": "/customer/serviceaccounts"
+        }
+      ],
+      "type": "group"
+    },
+    {
+      "label": "menu.martech",
+      "key": "menu.martech",
+      "children": [
+        {
+          "label": "menu.martech-contact",
+          "key": "/martech/campaign-manager/list",
+          "children": null,
+          "type": null,
+          "path": "/martech/campaign-manager/list"
+        }
+      ],
+      "type": "group"
+    },
+    { "type": "divider", "key": "div1" },
+    {
+      "label": "menu.products-and-inventory",
+      "key": "menu.products-and-inventory",
+      "children": [
+        {
+          "label": "menu.products",
+          "key": "/products-and-inventory/product-bundles",
+          "children": null,
+          "type": null,
+          "path": "/products-and-inventory/product-bundles"
+        }
+      ],
+      "type": "group"
+    },
+    {
+      "label": "menu.administration",
+      "key": "menu.administration",
+      "children": [
+        {
+          "label": "menu.business-configuration",
+          "key": "/administration/business-configuration",
+          "children": null,
+          "type": null,
+          "path": "/administration/business-configuration"
+        },
+        {
+          "label": "menu.business-specification",
+          "key": "/administration/business-specification",
+          "children": null,
+          "type": null,
+          "path": "/administration/business-specification"
+        },
+        {
+          "label": "menu.consent-records",
+          "key": "/administration/consent-records",
+          "children": null,
+          "type": null,
+          "path": "/administration/consent-records"
+        }
+      ],
+      "type": "group"
+    },
+    {
+      "label": "menu.content-management",
+      "key": "menu.content-management",
+      "children": [
+        {
+          "label": "menu.translation-text",
+          "key": "/content-management/translation-text",
+          "children": null,
+          "type": null,
+          "path": "/content-management/translation-text"
+        }
+      ],
+      "type": "group"
+    },
+    {
+      "label": "menu.settings",
+      "key": "/settings",
+      "children": null,
+      "type": null,
+      "path": "/settings"
+    },
+    {
+      "label": "menu.logout",
+      "key": "/logout",
+      "children": null,
+      "type": null,
+      "path": "/logout"
+    },
+    {
+      "label": "menu.logIn",
+      "key": "/login",
+      "children": null,
+      "type": null,
+      "path": "/login"
+    },
+    {
+      "label": "menu.promo-services",
+      "key": "/pms",
+      "children": null,
+      "type": null,
+      "path": "/pms/promo-services"
+    }
+  ]
+  

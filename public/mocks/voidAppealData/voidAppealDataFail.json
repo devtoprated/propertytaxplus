@@ -1,0 +1,9 @@
+{
+    "success": false,
+    "failure": {
+      "errorId": 4000001,
+      "errorCode": "ERROR_DECODE_REQUEST_BODY",
+      "description": "failed to unmarshal JSON body"
+    }
+  }
+  

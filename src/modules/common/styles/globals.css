@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif !important;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #f5f5f5;
+  padding: 15px;
+  scroll-behavior: smooth;
+}
+
+.ant-btn-default.togglebtn {
+  border: none;
+  box-shadow: none;
+}
+
+.navinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 13px;
+}
+
+header.ant-layout-header {
+  border-radius: 12px;
+}
+
+.navinfo.logofirst,
+.avtar,
+.noti {
+  border-right: 2px solid #C4C7CC;
+}
+
+.fileicon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0 16px 0;
+}
+
+span.anticon.anticon-file-done {
+  color: #fff;
+  font-size: 30px;
+  background: #3FC3AC;
+  border-radius: 33px;
+  padding: 10px 12px;
+}
+
+span.anticon.anticon-file-done:hover {
+  background: #2C4E6C;
+}
+
+.ant-popover-arrow {
+  display: none !important;
+}
+
+.ant-drawer-header-title {
+  flex-direction: row-reverse;
+}
+
+aside.ant-layout-sider.ant-layout-sider-dark {
+  background: #2C4E6C !important;
+  border-radius: 12px;
+}
+
+ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light {
+  background: none;
+  padding: 12px 12px;
+}
+
+li.ant-menu-item.ant-menu-item-selected {
+  background: #ffffff21;
+  color: #fff;
+}
+
+span.ant-menu-title-content {
+  color: #fff;
+}
+
+ul.ant-menu.ant-menu-root.ant-menu-inline li {
+  margin: 20px 0;
+  height: 44px;
+}
+
+li.ant-menu-item:hover {
+  background: #ffffff21 !important;
+}
+
+span.ant-layout-sider-zero-width-trigger.ant-layout-sider-zero-width-trigger-left {
+  inset-inline-end: -22px;
+  border-radius: 22px;
+  background: #fff;
+}
+
+ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light.ant-menu-inline-collapsed {
+  background: #2C4E6C;
+  margin: 20px 15px;
+  border: none;
+}
+
+button.togglearrow {
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: #fff;
+  border-radius: 22px;
+  margin-top: 35px;
+  margin-left: -14px;
+  z-index: 1;
+}
+
+button.togglearrow img {
+  width: 6px !important;
+  height: 11px !important;
+}
+
+/* Navbar */
+
+.navbar {
+  padding-bottom: 1px;
+  border-bottom: solid 1px #e8e8e8;
+  background-color: white;
+  box-shadow: 0 3px 6px -2px rgba(0, 0, 0, 0.12),
+    0 6px 16px -11px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  margin-bottom: 20px;
+  z-index: 99990;
+}
+
+.nav-header {
+  background-color: white;
+  border-bottom: 0;
+  padding: 0 4px 0 24px;
+}
+
+.logo {
+  width: 200px;
+  float: left;
+}
+
+.logo a {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.navbar-menu {
+  width: calc(100% - 200px);
+  float: left;
+}
+
+.navbar-menu .ant-layout-header {
+  padding: 0 20px;
+}
+
+.navbar-menu .ant-menu-horizontal {
+  border-bottom: 0;
+}
+
+.navbar-menu .ant-menu-item {
+  padding-bottom: 0px;
+}
+
+.navbar-menu .leftMenu {
+  float: left;
+}
+
+.navbar-menu .rightMenu {
+  float: right;
+}
+
+.menuButton {
+  float: right;
+  height: 32px;
+  padding: 6px;
+  margin-top: 14px;
+  display: none;
+  background: none;
+  margin-right: 10px;
+}
+
+.ant-drawer-body {
+  padding: 0;
+}
+
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-item,
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-submenu {
+  display: inline-block;
+  width: 100%;
+}
+
+.ant-drawer-body .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-item:hover {
+  border-bottom-color: transparent;
+}
+
+.username {
+  display: none;
+  margin-left: 8px;
+}
+
+@media (max-width: 767px) {
+  .menuButton {
+    display: block;
+    margin-right: 10px;
+  }
+
+  .leftMenu,
+  .rightMenu {
+    display: none;
+  }
+
+  .logo a {
+    margin-left: -10px;
+  }
+
+  .ant-drawer-title>.brand-font {
+    margin-bottom: 0;
+  }
+
+  .username {
+    display: inline-block;
+  }
+}
+
+/* Navbar End */
