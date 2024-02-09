@@ -168,13 +168,6 @@ see `src/modules/common/providers/AppSettingsProvider.tsx` for a sample
 - Any context that needs to be exposed should be made accessible via the hook that wraps it
 
 
-## Importing DatePicker / RangePicker
-antd by default uses dayjs for its DatePicker / RangePicker, regardless its flexibility allows use to it with date-fns.
-see https://ant.design/docs/react/use-custom-date-library#use-date-fns, we also have support for this in our repo,
-I have a pushed a commit to develop, src/modules/common/components/DatePicker.tsx,
-Moving forward we need to use the `@/modules/common/components/DatePicker` instead of directly using the `import { DatePicker } from "antd";` 
-
-
 ## react-query good practices 
 - every useQuery should have the {loading, error} state handled 
 - for useQuery avoid using onSuccess, onError callbacks,
